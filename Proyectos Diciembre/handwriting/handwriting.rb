@@ -24,7 +24,7 @@ class HandWriting
     font_size = gets.chomp
     puts
     puts
-    font_size += "px"
+    font_size += ".px"
     font_size.to_i
         objects = {text: text,
         		 handwriting_id: id,
