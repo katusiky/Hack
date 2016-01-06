@@ -1,0 +1,42 @@
+	Los tags se usan para versionar nuestros proyectos.
+
+git tag -a nombre del tag -m "mensaje del tag" <- es un tag anotado.
+git push origin nombre del tag <- para subir el tag.
+git push origin --tags <- sube todos los tags del proyecto.
+
+---------------------------------------------------------------------
+
+git init <-  inicia el repositorio local
+
+
+---------------------------------------------------------------------
+
+	Issues se usa para asignar trabajos específicos a los desarrolladores.
+
+	Labels marca los errors, bugs y problemas de un proyecto.
+	
+	Milestones es un conjunto de labels y/o issues que se deben hacer para un tiempo en específico y una versión dada.
+
+---------------------------------------------------------------------
+
+	Workflows
+		* Propios : Somos los dueños y decidimos todo lo que pasa en nuestro repositorio.
+		* Equipo : Es casi igual solo que habrán commits de el resto de trabajadores.
+		* Terceros : No somos ni dueños ni colaboradores pero trabajamos sobre una copia del repositorio original como un repositorio personal.
+
+git push origin RAMA <- para subir los cambio a la rama.
+git fetch origin <- para mover los cambios del remoto a la rama origin.
+git merge origin/RAMA <- absorver los cambios de la rama origin.
+
+---EN TERCEROS--- git fetch RamaOcultaDelProyecto <- para actualizar tu rama oculta al repositorio original.
+									git fetch origin <- actualizar tu rama oculta al repositorio personal.
+---EN TERCEROS--- git merge RamaOculta/RAMA <- une la rama oculta del proyecto con la de tu repositorio local.
+---------------------------------------------------------------------
+
+	Fast-forward hace una fusión y no pregunta nada, simplemente lo hace.
+	Auto-merge significa que hay un conflicto y hay que arreglarlo manualmente.
+
+---------------------------------------------------------------------
+
+	HEAD es lo que teniamos en nuestro último commit
+	Origin/RAMA es la información del último commit en el repositorio remoto en la rama.
