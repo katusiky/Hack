@@ -1,0 +1,1 @@
+arregloinverso.rb
