@@ -1,0 +1,9 @@
+active record.
+MVC <- Rails.
+DRY <- Rails.
+convenciones en rails.
+REST <- Rails.
+pit.
+port.
+RACK.
+SoA.
