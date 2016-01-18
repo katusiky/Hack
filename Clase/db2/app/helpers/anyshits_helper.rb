@@ -1,0 +1,2 @@
+module AnyshitsHelper
+end

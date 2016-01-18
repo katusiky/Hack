@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  city_id: 
+  name: MyString
+  required_level: 1
+  capacity: 1
+  position_X: 1
+  position_y: 1
+
+two:
+  city_id: 
+  name: MyString
+  required_level: 1
+  capacity: 1
+  position_X: 1
+  position_y: 1

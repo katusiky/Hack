@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyString
+  population: 1
+  happiness_percentage: 1
+  money: 1
+  level: 1
+  mayor_id: 
+
+two:
+  name: MyString
+  population: 1
+  happiness_percentage: 1
+  money: 1
+  level: 1
+  mayor_id: 

@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  commercial_building_id: 
+  name: MyString
+  required_level: 1
+
+two:
+  commercial_building_id: 
+  name: MyString
+  required_level: 1

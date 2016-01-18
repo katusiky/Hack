@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  bill_num: 1
+  ctrl_num: 1
+  client_id: 
+
+two:
+  bill_num: 1
+  ctrl_num: 1
+  client_id: 

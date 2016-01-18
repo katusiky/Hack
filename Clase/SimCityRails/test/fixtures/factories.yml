@@ -1,0 +1,13 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  city_id: 
+  factory_type_id: 
+  position_x: 1
+  position_y: 1
+
+two:
+  city_id: 
+  factory_type_id: 
+  position_x: 1
+  position_y: 1

@@ -1,0 +1,40 @@
+Expresiones regulares.
+
+Se deben encapsular entre // 
+
+/a/ Busca a y cualquier palabra que la contenga.
+
+Para los caracteres especiales debe usarse \ (escape)
+$ ? . / \ [ ] { } ( ) + . *
+
+Comodin. 
+
+/.asa/ El punto representa cualquier caracter, incluso los especiales, ejemplos de resultados casa, pasa, masa, %asa.
+
+Busquedas especiales.
+
+/[cpm]asa/ Resultados validos casa, pasa, masa, tomasa.
+
+Rangos posibles:
+[a-z] minuscula
+[A-Z] mayuscula
+[0-9] numeros 
+[A-Za-z] mayusculas y minusculas
+
+\d = [0-9]
+
+\w = [A-Za-z0-9_]
+
+\s = Espacio ( espacio en blanco  tabulado, Enter )
+
+\D \W \S
+
+contadores y limitadores
+
+* Cero o mas repeticiones
++ 1 o mas repeticiones
+$ Fin de linea
+{m,n} Entre m y n repeticiones m<n
+? Por lo menos una repetición
+() Agrupador de Expresiones
+|| Busca lo que hay antes o despues
