@@ -1,21 +1,6 @@
 Rails.application.routes.draw do
 
-  resources :clients, only: [:index, :create, :show, :update, :destroy] do
-    resources :items, only: [:index, :create, :show, :update, :destroy]
-    resources :checks, only: [:index, :create, :show, :update, :destroy] do
-      resources :items, only: [:index, :create, :show, :update, :destroy]
-      resources :check_items, only: [:index, :create, :show, :update, :destroy] do
-        resources :items, only: [:index, :create, :show, :update, :destroy]
-      end   
-    end
-  end
-
-  resources :checks, only: [:index, :create, :show, :update, :destroy] do
-    resources :check_items, only: [:index, :create, :show, :update, :destroy]
-  end
-  resources :items, only: [:index, :create, :show, :update, :destroy]
-  resources :check_items, only: [:index, :create, :show, :update, :destroy]
-
+  resources :bills, only: [:index, :create, :show, :update, :destroy]
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 

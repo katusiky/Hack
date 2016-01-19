@@ -25,7 +25,7 @@ class CheckItem < ActiveRecord::Base
 	end
 
 	def set_total_amount
-		self.check.total_amount = self.sub_total + self.total_tax
+		self.check.total_amount = self.check.total_amount + self.sub_total + self.total_tax
 		self.check.save
 	end
 end

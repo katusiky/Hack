@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  bill_num: 
+  name,: MyString
+  telephone_number,: MyString
+  identity,: MyString
+  items,: MyString
+  sub_total: 
+  total_tax: 
+  total_amount: 1.5
+
+two:
+  bill_num: 
+  name,: MyString
+  telephone_number,: MyString
+  identity,: MyString
+  items,: MyString
+  sub_total: 
+  total_tax: 
+  total_amount: 1.5
