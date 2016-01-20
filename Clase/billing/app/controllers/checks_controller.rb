@@ -3,12 +3,10 @@ class ChecksController < ApplicationController
 	rescue_from ActiveRecord::RecordNotFound, with: :record_not_found
 
 	def index
-		checks = Check.all
-		render json: checks
+		@checks = Check.all
 	end
 
 	def show
-		render json: @check.items
 	end
 
 	def create

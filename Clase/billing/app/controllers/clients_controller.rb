@@ -3,11 +3,11 @@ class ClientsController < ApplicationController
 	rescue_from ActiveRecord::RecordNotFound, with: :record_not_found
 
 	def index
-		clients = Client.all
+		@clients = Client.all
 		#investigar sobre: jbuielder y ams
-		render json: clients.as_json(only: [:name, :address, :telephone_number, :identity], include: { checks: { only: :total_amount,
-                           include: { check_items: { only: [:quantity,:sub_total,:total_tax],
-														include: { item: { only: [:name, :price, :tax] } } } } } })
+		#render json: clients.as_json(only: [:name, :address, :telephone_number, :identity], include: { checks: { only: :total_amount,
+        #                   include: { check_items: { only: [:quantity,:sub_total,:total_tax],
+		#												include: { item: { only: [:name, :price, :tax] } } } } } })
 		
 	end
 
